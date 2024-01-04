@@ -175,7 +175,7 @@ async def account_login(bot: Client, m: Message):
                     try:
                         ka = await helper.download(url, name)
                         copy = await bot.send_document(chat_id=m.chat.id,document=ka, caption=cc1)
-                        await copy.copy(chat_id = -1002008774612)
+                        await copy.copy(chat_id = -1001074184)
                         count+=1
                         os.remove(ka)
                         time.sleep(1)
@@ -211,7 +211,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done JAT BOY 🔰")
+    await m.reply_text("🔰Done Jackson 🔰")
 
 
 bot.run()
