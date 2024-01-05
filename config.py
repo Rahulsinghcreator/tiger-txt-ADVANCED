@@ -8,16 +8,14 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "6561995810:AAGvDAcE28oD6MG39DJhMTz-4cpR
 
 PASS_DB = int(os.environ.get("PASS_DB", "721"))
 
-OWNER = int(os.environ.get("OWNER", 1002140049222
+OWNER = int(os.environ.get("OWNER", 6561995810
 
 LOG = -4099057818
-
+txt_channel=-1002021057745
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6333211826").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
-ADMINS.append(OWNER)
-
-
+ADMINS.append(OWNER
