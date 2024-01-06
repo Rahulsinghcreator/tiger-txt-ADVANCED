@@ -4,7 +4,7 @@
     "name": "JACKSON",
 
     "description": "A Modular telegram bot.",
-   "bot_token", "6561995810:AAGvDAcE28oD6MG39DJhMTz-4cpRuST31cM",
+   ,
     "repository": "https://github.com/kobbrak447/tiger-txt-ADVANCED",
     "buildpacks":[
         {
