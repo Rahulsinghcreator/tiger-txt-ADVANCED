@@ -21,7 +21,8 @@ from config import *
 import sys
 import re
 import os
- bot = Client(
+
+bot = Client(
     "bot",
     bot_token= "6561995810:AAGvDAcE28oD6MG39DJhMTz-4cpRuST31cM")
     api_id=23621134,
