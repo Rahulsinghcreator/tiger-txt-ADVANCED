@@ -4,7 +4,6 @@
     "name": "JACKSON",
 
     "description": "A Modular telegram bot.",
-   ,
     "repository": "https://github.com/kobbrak447/tiger-txt-ADVANCED",
     "buildpacks":[
         {
